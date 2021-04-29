@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+
+    android:background="#EDF2F4">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/bgrel">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/matchid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH ID:"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tvmatchid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH ID:"
+            android:textColor="#000"
+
+            android:layout_below="@+id/matchid"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/team1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM 1"
+            android:layout_below="@+id/tvmatchid"
+            android:textSize="15sp"
+            />
+
+
+        <TextView
+            android:id="@+id/tvteam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH ID:"
+            android:textColor="#000"
+
+            android:layout_below="@+id/team1"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/team2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEAM 2"
+
+            android:layout_below="@+id/tvteam1"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tvteam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH ID:"
+
+            android:textColor="#000"
+            android:layout_below="@+id/team2"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCORE"
+            android:layout_below="@+id/tvteam2"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tvscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH ID:"
+            android:textColor="#000"
+
+            android:layout_below="@+id/score"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/matchstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH STATUS"
+
+            android:layout_below="@+id/tvscore"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:id="@+id/tvmatchstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATCH ID:"
+            android:textColor="#000"
+
+            android:layout_below="@+id/matchstatus"
+            android:textSize="20sp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

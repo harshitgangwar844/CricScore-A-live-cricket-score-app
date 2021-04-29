@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".analysisActivity"
+    android:background="#EDF2F4">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnav2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menunav"/>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgrel"
+        android:layout_margin="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/fbtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
+            android:text="TEXTVIEW"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/analysisdata"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textSize="25sp"
+           android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+
+            android:text="ANALYSIS ACTIVITY"
+
+            android:gravity="center_horizontal"
+
+
+            android:textColor="#000"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnana"
+
+            android:layout_below="@+id/fbtv"
+            android:layout_centerHorizontal="true"
+            android:text="SEE ANALYSIS"
+            android:textColor="#fff"
+            android:background="@drawable/btn_gradient_style"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            />
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/relative">
+
+        <TextView
+            android:id="@+id/analysisgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/aclonica"/>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="100dp"
+            app:lottie_rawRes="@raw/statistics"
+            android:layout_centerHorizontal="true"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+    </RelativeLayout>
+
+
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7544291206603406/9545270577">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</RelativeLayout>

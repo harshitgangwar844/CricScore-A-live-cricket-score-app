@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "945993164245",
+    "project_id": "my-application444-662a1",
+    "storage_bucket": "my-application444-662a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945993164245:android:fff3251e94832b0933495c",
+        "android_client_info": {
+          "package_name": "com.sumit.myapplication444"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945993164245-6qfigm5ntncljnu6k55snbbc7thq7k6d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKoJjN4eodRzgeTHj-MYU3f7V69xGnK-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945993164245-6qfigm5ntncljnu6k55snbbc7thq7k6d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF2F4"
+
+    tools:context=".liveActivity">
+
+
+<RelativeLayout
+    android:id="@+id/relativelayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relayoutlive"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/bgrel">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
+            android:text="LIVE ACTIVITY"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linktv2"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/aclonica"
+            android:gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="*PLEASE CLICK THIS BUTTON TO WATCH THE CRICKET MATCH*" />
+
+
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/watch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WATCH IPL LIVE HINDI"
+            android:textColor="#fff"
+            android:background="@drawable/btn_gradient_style"
+            android:padding="10dp"
+            android:layout_below="@id/tv1"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/linktv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#622BE1"
+            android:layout_below="@+id/tv1"/>
+
+
+        <TextView
+            android:id="@+id/linktv2"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:textColor="#622BE1"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linktv1"
+            android:layout_centerHorizontal="true"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnav1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menunav"/>
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-7544291206603406/4424821745">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</RelativeLayout>
